@@ -1,4 +1,4 @@
-;Snake game for DavidDOS By David Badiei
+;Muncher game for DavidDOS By David Badiei
 org 4000h
 start:
 ;Change Video mode to VGA 320x200
@@ -100,7 +100,7 @@ doneprog:
 mov ah,0
 mov al,3
 int 10h
-ret
+retf
 
 x1 dw 160
 y1 dw 100
